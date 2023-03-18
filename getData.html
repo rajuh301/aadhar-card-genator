@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get info for aadher</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-pink-200">
+
+
+    <section class="mx-auto grid grid-cols-1 mt-0 text-center ">
+        <div class="border-4 drop-shadow-4xl bg-green-600 rounded-lg mx-44 italic ">
+
+            <h1 class="text-4xl p-2 bg-[#1e293b] text-white font-bold rounded-lg">Input your information for aadher</h1>
+
+
+            <div class="flex gap-5 mx-[350px]  py-2 text-2xl mt-10">
+                <p>Name:</p>
+                <input type="text" class="rounded-lg mx-6" id="inputName">
+            </div>
+
+
+            <div class="flex gap-5 mx-[350px]  py-2 text-2xl">
+                <p>Father:</p>
+                <input type="text" class="rounded-lg mx-5" id="fatherName">
+            </div>
+
+            <div class="flex gap-5 mx-[350px]  py-2 text-2xl">
+                <p>Mother:</p>
+                <input type="text" class="rounded-lg mx-3" id="motherName">
+            </div>
+
+            <div class="flex gap-5 mx-[350px]  py-2 text-2xl">
+                <p>Birthday:</p>
+                <input type="text" class="rounded-lg mx-0" id="dob">
+            </div>
+
+            
+            <div class="mt-5">
+        
+                <Address>Address</Address>
+                <textarea class="mx-52 rounded-lg" name="address" id="address" cols="60" rows="4"></textarea>
+            </div>
+
+
+
+                <div class="text-[24px] mt-2 ">
+                    <p>Select your gender</p>
+
+               
+                    <input type="radio" name="gender" value="Male"> Male <br>
+                    <input type="radio" name="gender" value="Female"> Female
+
+                    
+                </div>
+
+                <div>
+                    <p>Input your image</p>
+                    <input class="rounded-lg" type="file"  id="image">
+                </div>
+
+
+                <button class="bg-green-800 px-3 text-2xl rounded-full text-white py-1 my-2 hover" id="submit">Submit</button>
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Js area -->
+    <script src="js/function.js"></script>
+
+</body>
+
+</html>
